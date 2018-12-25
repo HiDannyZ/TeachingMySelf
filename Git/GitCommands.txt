@@ -34,6 +34,8 @@ cat file.ext
 rm file.ext
 	- Removes file
 
+mv OldName.ext NewName.ext
+
 clear
 	- Clears the interface.
 
