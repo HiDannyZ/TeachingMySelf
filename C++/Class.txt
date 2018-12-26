@@ -1,4 +1,8 @@
 Classes is used to group a series of similar functions.
+Objects are instances of Classes, which allow us to use the functions in the class.
+
+** Remember to avoid having class variables in Public specficer. Its a bad coding practice. Make them private instead
+
 
 Class NameOfClass{};
 	- initializes a class 
@@ -12,7 +16,13 @@ NameOfClass NameOfObject;
 	- Creates an Object, which allows us to access the items in a class
 		
 NameOfObject.publicfunction()
-	- Allows us to access and use the functions in class		
+	- Allows us to access and use the functions in class
+
+NameOfObject.variable
+	- allows us to access and set class variable.
+	- This method is not prefered..
+	- We should use a function to set variable.
+
 
 
 Example Code:
@@ -22,6 +32,7 @@ using namespace std;
 
 class Dog{
 	public:					// Access Specificer
+		int x;				// AVOID DOING A Class variable in public tho
 		void CoolSaying(){
 			cout << "woof";
 		}
