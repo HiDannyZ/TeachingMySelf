@@ -1,0 +1,34 @@
+Classes is used to group a series of similar functions.
+
+Class NameOfClass{};
+	- initializes a class 
+
+public:
+	- Goes under initalization of class and is a access specficer
+	- This allows us to use the functions under this anywhere outside the class.
+
+
+NameOfClass NameOfObject;
+	- Creates an Object, which allows us to access the items in a class
+		
+NameOfObject.publicfunction()
+	- Allows us to access and use the functions in class		
+
+
+Example Code:
+
+#include <iostream>
+using namespace std;
+
+class Dog{
+	public:					// Access Specificer
+		void CoolSaying(){
+			cout << "woof";
+		}
+}
+
+int main(){
+	Dog DogObject;
+	DogObject.CoolSaying();
+	return 0;
+}

@@ -13,6 +13,12 @@ Boils Down to this:
 
 Now some commands and explainations:
 
+Trick:
+	Hit Tab for auto-complete
+
+explorer .
+	- Opens file directory
+
 git status
 	- Tells you what's different from online verison
 
@@ -25,6 +31,9 @@ git commit -m "message"
 git push
 	- pushes back to GitHub
 
+start file.ext
+	- Opens the file to default text editor
+
 touch file.ext
 	- Touch creates a file of that extenstion
 
@@ -35,8 +44,8 @@ rm file.ext
 	- Removes file
 
 mv OldName.ext NewName.ext
+	- Renames a File
 
 clear
 	- Clears the interface.
-
 
