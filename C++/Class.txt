@@ -1,7 +1,13 @@
 Classes is used to group a series of similar functions.
 Objects are instances of Classes, which allow us to use the functions in the class.
 
-** Remember to avoid having class variables in Public specficer. Its a bad coding practice. Make them private instead
+Constructor is a function that gets called automatically as soon as an object is created.
+	- Mainly used to give Variables a inital value
+	- Never has a return type;
+	- just type the constructor name
+		- Constructor name is ALWAYS the same as the Name of the Class.
+
+** Remember to avoid having class variables in Public specficer. Its a bad coding practice as it makes program easy to hack. Make them private instead
 
 
 Class NameOfClass{};
@@ -9,7 +15,17 @@ Class NameOfClass{};
 
 public:
 	- Goes under initalization of class and is a access specficer
-	- This allows us to use the functions under this anywhere outside the class.
+	- This allows us to use the functions/variable under public anywhere outside the class.
+
+private:
+	- Goes under initalization of class and public.
+	- We cannot use this anywhere outside the class
+	- Is a lot more secure as it hides variable name/usage outside of class.
+	- Best usage:
+		- Create:
+			Set Variable function
+			Get Variable function
+
 
 
 NameOfClass NameOfObject;
@@ -18,28 +34,76 @@ NameOfClass NameOfObject;
 NameOfObject.publicfunction()
 	- Allows us to access and use the functions in class
 
+
+
 NameOfObject.variable
 	- allows us to access and set class variable.
 	- This method is not prefered..
-	- We should use a function to set variable.
+	- AVOID THIS. Instead We should use a function to set variable.
 
 
 
-Example Code:
+Example of Code for Public and Private:
 
 #include <iostream>
+#include <string>
 using namespace std;
 
+
 class Dog{
-	public:					// Access Specificer
-		int x;				// AVOID DOING A Class variable in public tho
-		void CoolSaying(){
-			cout << "woof";
+	public:
+		void SetDogName(string GivenName){
+			DogName = GivenName;
 		}
-}
+		string GetDogName(){
+			return DogName;
+		}
+
+	private:
+		string DogName;
+
+};
 
 int main(){
 	Dog DogObject;
-	DogObject.CoolSaying();
+	DogObject.setDogName("Stain");
+	string theNameOfDog = DogObject.getName();
+	std::cout << theNameOfDog;
+	return 0;
+}
+
+Example with Constructor using Previous Code:
+
+#include <iostream>
+#include <string>
+using namespace std;
+
+
+class Dog{
+	public:
+		Dog(string z){
+			std::cout << This is the Constructor and Prints Automatically as soon as object is created << std::endl;
+			setDogName(z);
+		}
+		void SetDogName(string GivenName){
+			DogName = GivenName;
+		}
+		string GetDogName(){
+			return DogName;
+		}
+
+	private:
+		string DogName;
+
+};
+
+int main(){
+	Dog DogObject("ConstructorName");
+	std::cout << DogObject.getName(); // Should return ConstructorName
+
+	Dog DogObject2("The Second Name");
+	std:: cout << DogObject2.getName(); // Returns The Second Name
+
+
 	return 0;
 }
