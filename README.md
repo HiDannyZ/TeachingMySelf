@@ -6,8 +6,8 @@ This repository gives me a chance to store all my notes if I ever wanted to refe
 
 # Things I am currently Studying:
 - C++
-	- Main Teaching Material: [Extern Code](https://www.youtube.com/watch?v=mUQZ1qmKlLY)
-	- Supporting Material: Various other information located online such as StackOverflow
+	- **Main Teaching Material**: [Extern Code](https://www.youtube.com/watch?v=mUQZ1qmKlLY)
+	- **Supporting Material**: Various other information located online such as StackOverflow
 - Git
 - Algorithms
 

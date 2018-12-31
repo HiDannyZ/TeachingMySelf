@@ -1,5 +1,7 @@
 Git Commands
 
+Tutorial Followed to Start Learning Git: https://affanindo.github.io/simple-git-workflow
+
 Boils Down to this:
 	1.) Create the repository on web
 	2.) git clone <link>
@@ -13,8 +15,8 @@ Boils Down to this:
 
 Now some commands and explainations:
 
-Trick:
-	Hit Tab for auto-complete
+Tricks:
+	Hit Tab for auto-complete in the git bash interface.
 
 explorer .
 	- Opens file directory
