@@ -30,8 +30,12 @@ git add -A
 git commit -m "message"
 	- m means you want to add commit message, so you can keep track of what you’ve edited. Keep a simple title for the commit message, for example I write “edited README.md and add files.txt”, Pretty simple and understandable message.
 
-git push
+git push -f
 	- pushes back to GitHub
+	- Optional: using -f means you force the changes despite remote github to be different than the one on my PC.
+
+git pull
+	- Updates the files on PC with the file stored on the Github website.
 
 start file.ext
 	- Opens the file to default text editor

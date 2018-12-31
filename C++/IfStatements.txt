@@ -1,0 +1,18 @@
+A good coding Outline for If statements and to see how its used in C++
+
+Example:
+
+#include <iostream>
+using namespace std;
+
+int main()
+{
+	int age = 748;
+
+	if(age > 60){
+		std::cout << "Senior"
+	}else{
+		std::cout << "Not Senior :D"
+	}
+	return 0;
+}
