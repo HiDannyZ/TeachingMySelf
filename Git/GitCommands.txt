@@ -1,6 +1,7 @@
 Git Commands
 
-Tutorial Followed to Start Learning Git: https://affanindo.github.io/simple-git-workflow
+Tutorials Followed to Start Learning Git: https://affanindo.github.io/simple-git-workflow
+										 https://www.youtube.com/watch?v=J_Clau1bYco&t=232s
 
 Boils Down to this:
 	1.) Create the repository on web

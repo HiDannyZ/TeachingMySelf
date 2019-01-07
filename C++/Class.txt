@@ -41,8 +41,6 @@ NameOfObject.variable
 	- This method is not prefered..
 	- AVOID THIS. Instead We should use a function to set variable.
 
-dasdsada
-
 Example of Code for Public and Private:
 
 #include <iostream>
