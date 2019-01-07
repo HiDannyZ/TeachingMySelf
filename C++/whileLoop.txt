@@ -1,0 +1,17 @@
+A good coding Outline for while statements and to see how its used in C++
+
+
+#include <iostream>
+using namescape std;
+
+int main()
+{
+	int bacon = 0;
+
+	while(bacon <= 5){
+		std::cout << bacon is : << bacon << std::endl;
+		bacon++;
+	}
+
+	return 0;
+}

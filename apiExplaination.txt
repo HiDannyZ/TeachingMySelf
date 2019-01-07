@@ -1,0 +1,11 @@
+To clarify for people who don't really know what APIs are: the point of an API is to tell you what kind of data you can get and how to structure your requests to get that data.
+
+That structure is the same for everyone, no matter what programming language or library they use to request it. It's designed that way so that it's easy for people to write programs using that data in whatever languages they want.
+
+In this case, Python is a very popular programming language, so there are a lot of potential program writers out there who have written tools to make requesting/working with data from the Riot API easier.
+
+Usually these types of programs are called libraries; as in, a library of common actions people may want to do when working with the Riot API.
+
+So a library might be designed to pull all your ARAM games and compare win rates with various champs, generating a graph of them, for example. Usually you would have to program that separately for yourself, but maybe because a lot of people are interested in doing those same actions, there's a library out there that someone already wrote.
+
+So in this case, it's not that Riot uses Python a lot, or for the API (although they may well use it to make their API); the purpose of an API is so that it doesn't matter what Riot used. By setting up a standard way of using their API, you can use almost any language you want to pull data from it.

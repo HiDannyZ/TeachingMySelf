@@ -1,0 +1,3 @@
+Software engineering is like playing with Lego bricks. Nobody builds from scratch with the 1x1 brick. API companies make prebuilt bricks other engineers can use. These prebuilt bricks have little buttons on them which can be used by my own bricks to interact with
+
+They spent years and hundreds of thousands, if not millions, of dollars to develop those lego blocks, so that we can use them immediately and for much lower cost. We could make our own version of those blocks, but it we'd be eating that cost.
