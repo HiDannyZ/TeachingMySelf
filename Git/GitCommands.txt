@@ -53,6 +53,9 @@ rm file.ext
 mv OldName.ext NewName.ext
 	- Renames a File
 
+mkdir FolderName
+	- creates a directory
+
 clear
 	- Clears the interface.
 
