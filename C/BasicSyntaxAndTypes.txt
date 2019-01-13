@@ -1,0 +1,24 @@
+C doesn't have Strings, so we have to use character arrays instead.
+
+
+Types for String Printing:
+	-
+
+
+
+#include <stdio.h>
+	- Allows us to utilize print statements
+
+printf("Words I want to Say \n");
+	- Print Statement
+	- Use \n to go to next line for future statements
+
+Example Code:
+
+if (x < y){
+	char
+	printf("Something\n")	
+}
+else{
+	printf("Else\n")
+}
