@@ -1,0 +1,25 @@
+Do while Loop: 
+
+Not really utilized in Programming
+
+Ensures the code runs at least one time before doing the while loop.
+
+Essentially, the contents in the do statement will run at least once. Then, it will go into the while statement and run the do statement until while loop breaks.
+
+
+Example Code:
+
+#include <iostream>
+#include <cmath>
+using namescape std;
+
+int main(){
+
+	int x = 1;
+
+	do{
+		std::cout << x << std::endl;
+		x++;
+	}while(x<10);
+
+}
