@@ -1,0 +1,35 @@
+Switch and case statements are pretty simple to understand. 
+The usage of this can be replaced with if-else statements, which is much more standard too.
+
+
+	break
+		- means to end the switch
+		- needed because there's no need to go through the switch anymore once you find your case
+
+	default:
+		- do this if none of the cases are met
+
+
+//Example Code:
+
+#include <iostream>
+using namespace std;
+
+int main(){
+	
+	int age = 21;
+
+	switch(age){
+		case 16:
+			cout<< "If age is equal to 16"
+			break;
+		case 18: 
+			cout<< " If age is equal to 18"
+			break;
+		case 21:
+			cout << " I can drink alcohol!! 6 more months for me zzzzzzzzz"
+			break;
+		default:
+			cout << " If all the above values failed, print this!"
+	}
+}

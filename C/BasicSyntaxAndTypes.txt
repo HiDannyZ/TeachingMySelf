@@ -2,7 +2,7 @@ C doesn't have Strings, so we have to use character arrays instead.
 
 
 Types for String Printing:
-	-
+	
 
 
 

@@ -1,0 +1,17 @@
+
+&&
+	- And Statement
+
+||
+	- Or statement
+
+Example Code:
+int main(){
+	
+	int age = 2;
+	int money = 4;
+
+	if(age >21 && money> 500){
+		cout << "Allowed in the night club" << endl; 
+	}
+}

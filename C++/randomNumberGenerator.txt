@@ -1,0 +1,22 @@
+
+
+#include <cstdlib>
+	- required, so we can utilize the random number generator function rand()
+
+rand()
+	- Gives us a random number
+
+Example Code
+
+#include <cstdlib>
+#include <iostream>
+using namespace std;
+
+
+int main(){
+	
+	for(int x = 1; x <25;x++){
+		
+	}
+}
+
