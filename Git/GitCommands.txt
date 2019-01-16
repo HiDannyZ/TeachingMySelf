@@ -1,4 +1,4 @@
-Git Commands
+Git And Linux Commands
 
 Tutorials Followed to Start Learning Git: https://affanindo.github.io/simple-git-workflow
 										 https://www.youtube.com/watch?v=J_Clau1bYco&t=232s
@@ -38,6 +38,12 @@ git push -f
 git pull
 	- Updates the local repository on PC with the file stored on the Github website.
 
+git pull origin master
+	- Brings Local Repository up to date from Master online
+
+git fetch --dry-run
+	- Shows what changed from master to local, without making any changes
+
 
 start file.ext
 	- Opens the file to default text editor
@@ -64,3 +70,12 @@ mkdir FolderName
 clear
 	- Clears the interface.
 
+pwd
+	- Tells me where I am
+
+tar -zxvf FileName.tar.gz
+	- Extracts File to current directory
+
+unzip file.zip
+	- To Unzip a file
+	- This you need to install the command before usage
