@@ -36,7 +36,8 @@ git push -f
 	- Optional: using -f means you force the changes despite remote github to be different than the one on my PC.
 
 git pull
-	- Updates the files on PC with the file stored on the Github website.
+	- Updates the local repository on PC with the file stored on the Github website.
+
 
 start file.ext
 	- Opens the file to default text editor
@@ -47,8 +48,12 @@ touch file.ext
 cat file.ext
 	- Prints the contents of the file
 
-rm file.ext
+rm file.ext -rf
 	- Removes file
+	    -f, --force
+           ignore nonexistent files and arguments, never prompt
+    	-r, -R, --recursive
+           remove directories and their contents recursively
 
 mv OldName.ext NewName.ext
 	- Renames a File
