@@ -22,6 +22,9 @@ Tricks:
 explorer .
 	- Opens file directory
 
+ git clone https://username:password@github.com/blah/blahblah.git
+ 	- For Private Repository
+
 git status
 	- Tells you what's different from online verison
 
