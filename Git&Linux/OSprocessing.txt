@@ -1,0 +1,33 @@
+Apprendix for commands in Linux that deal with OS processing measurement.
+
+Purpose: These commands are used to measure the usage of address spacing
+
+
+cd /proc
+	- /proc is a process information psudo-file system (virtual filesystem).
+	- It doesn't contain "real" files, but runtime system information like system memory and hardware configuration
+
+pgrep programName  or ps -ef | grep programName
+	- Both Gives Process ID
+	- pgrep gives directly the process ID
+	- ps -ef | grep programName gives all the processes IDs that have programName in their name
+
+cat /proc/pid/smaps
+	- This file shows memory consumpation for each of the process's mappings
+	- Gives a description of the current memory allocation to each segment of the process address space
+	- Smaps stands for shared maps
+
+cat /proc/pid/map
+	- Gives address limits of the stack and heap
+
+size fileName.c
+	- Finds the size of the Complied code also known as its executable(including its code vs. data segements)
+
+pmap PID
+	- To see memory allocated to each section of the process
+	- Als contains the total size of the code during run time at the bottom
+
+strace programName
+	- Records all system calls invoked while executing the program given
+
+

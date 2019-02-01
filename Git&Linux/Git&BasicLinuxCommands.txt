@@ -1,4 +1,4 @@
-Git And Linux Commands
+Apprendix for Git And Basic Linux Commands for use in GitBash
 
 Tutorials Followed to Start Learning Git: https://affanindo.github.io/simple-git-workflow
 										 https://www.youtube.com/watch?v=J_Clau1bYco&t=232s

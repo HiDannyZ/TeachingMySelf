@@ -1,0 +1,23 @@
+Apprendix for GDB Commands and how to run them.
+
+Purpose of GDB: Its the most popular Debugger for UNIX systems to debug C and C++ Programs
+
+gdb programName
+	- To run a program under gdb
+
+break <lineNumber>
+	- sets a break point in the program to ease the debugging process
+
+r
+	- to run the code
+
+c
+	- to continue runing the program after a breakpoint
+
+backtrace
+	- to inspect the stack of commands ran.
+	- important to note that it first command is at the bottom of the stack
+
+backtrace full
+	- to display contents of local variables
+
