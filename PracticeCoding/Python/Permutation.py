@@ -1,4 +1,6 @@
-#Check if there exists a permutation
+#Check if there exists a permutation between two strings: For example, Hello can make the string Olleh as well
+# Assumptions: Capital Letters don't matter
+#              The number of characters used have to be exactly the same; it cannot exceed or go beyond. For example, wearmon != ear
 
 def permutationCheck(a, b):
     dictionary = {}
@@ -32,6 +34,7 @@ def permutationCheck(a, b):
     if value == set():
         return True
 
+    # this works as well
     #if dictionary == dictionary2:
     #    return True
 
