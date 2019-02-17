@@ -43,12 +43,14 @@ class linkedList:
 
     def printLinkedList(self):
         current = self.head
-        while current.next is not None:
+        while current is not None:
             #current = current.next
             print(current.data)
             current = current.next
 
 if __name__ == '__main__':
+
+    head_input = input("Insert Head Value:")
 
     user_input = input()
 
@@ -56,15 +58,15 @@ if __name__ == '__main__':
 
     dictionary = {}
 
-    headNode = linkedList(Node(99))
+    headNode = linkedList(Node(head_input))
 
     for i in range(len(listNodes)):
         if listNodes[i] in dictionary:
             continue
         else:
             dictionary[listNodes[i]] = 1
-            
     for key in dictionary.keys():
-        headNode.addNode(key)
+        headNode.insertEnd(key)
+        #headNode.addNode(key)
 
     headNode.printLinkedList()
