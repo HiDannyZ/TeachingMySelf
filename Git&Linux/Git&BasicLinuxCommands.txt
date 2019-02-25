@@ -34,7 +34,7 @@ git add -A
 git commit -m "message"
 	- m means you want to add commit message, so you can keep track of what you’ve edited. Keep a simple title for the commit message, for example I write “edited README.md and add files.txt”, Pretty simple and understandable message.
 
-git push -f
+git push -f                    
 	- pushes back to GitHub
 	- Optional: using -f means you force the changes despite remote github to be different than the one on my PC.
 
@@ -46,6 +46,19 @@ git pull origin master
 
 git fetch --dry-run
 	- Shows what changed from master to local, without making any changes
+
+git checkout -b name
+	- creates a branch with that name and switches to that branch
+
+git checkout
+	- Switches between branches and master
+
+git branch
+	- lists all branches and tells which branch you are at
+
+git checkout master| git merge branchName
+	- pushes from branch to master
+
 
 
 start file.ext
